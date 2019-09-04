@@ -1,0 +1,15 @@
+{
+  "street-address": "",
+  "city": "",
+  "state": "",
+  "postal-code": 0,
+  "price": "$0",
+  "type": "Single Family Home",
+  "room-count": 0,
+  "bath-count": "0",
+  "sqft": "0",
+  "lot-sqft": "0",
+  "year-built": 2020,
+  "description": "",
+  "photo": "images/avatar.png"
+}
