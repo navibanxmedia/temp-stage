@@ -29,5 +29,3 @@ fields:
 - type: text
   name: header-title
   label: Header Title
-pages:
-- _data/media.json
