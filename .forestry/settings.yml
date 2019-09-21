@@ -4,6 +4,16 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d702df9df1b650011dd98b7/webhook/forestry
 sections:
+- type: heading
+  label: Edit
+- type: document
+  path: _data/home-info.json
+  label: Property Details
+  match: "**/*"
+- type: document
+  path: _data/agent.json
+  label: Agent Details
+  match: "**/*"
 - type: document
   path: _data/social.json
   label: Social Links
