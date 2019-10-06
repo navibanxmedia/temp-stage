@@ -236,11 +236,6 @@
                             <div class="col-12" id="photo">
                                 <h2 class="h4 text-black mb-3">Property Gallery</h2>
                             </div>
-                                {% for image in site.static_files %}
-                                {% if image.path contains 'images' %}
-                                         <div><img src="{{ image.path }}" alt="Image" class="img-fluid"></div>
-                                {% endif %}
-                            {% endfor %}
                             
                                 {% for image in site.static_files %}
                                     {% if image.path contains 'images' %}
