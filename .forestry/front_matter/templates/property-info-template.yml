@@ -44,3 +44,7 @@ fields:
   name: photo
   label: Featured Photo
   hidden: true
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
