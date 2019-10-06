@@ -9,11 +9,9 @@ sections:
 - type: document
   path: _data/home-info.json
   label: Property Details
-  match: "**/*"
 - type: document
   path: _data/agent.json
   label: Agent Details
-  match: "**/*"
 - type: document
   path: _data/social.json
   label: Social Links
