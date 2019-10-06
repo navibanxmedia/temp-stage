@@ -2,14 +2,17 @@
   "street-address": " 2018 Navibanx Dr",
   "city": "City",
   "state": "CA",
-  "postal-code": 0,
+  "postal-code": null,
   "price": "$0",
   "type": "Single Family Home",
-  "room-count": 0,
+  "room-count": null,
   "bath-count": "0",
   "sqft": "0",
   "lot-sqft": "0",
   "year-built": 2020,
   "description": "",
-  "photo": "images/avatar.png"
+  "photo": "images/avatar.png",
+  "photos": [
+
+  ]
 }
