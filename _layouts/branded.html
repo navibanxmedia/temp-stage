@@ -148,7 +148,7 @@
                             -->
                             {% for image in site.static_files %}
                                 {% if image.path contains 'images' %}
-                                         <div><img src="{{ site.baseurl }}{{ image.path }}" alt="Image" class="img-fluid"></div>
+                                         <div><img src="{{ image.path }}" alt="Image" class="img-fluid"></div>
                                 {% endif %}
                             {% endfor %}
                             
