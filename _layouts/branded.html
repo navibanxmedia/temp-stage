@@ -141,16 +141,12 @@
                 <div class="col-lg-8" style="margin-top: -150px;">
                     <div class="mb-5">
                         <div class="slide-one-item home-slider owl-carousel" id="details">
-                            <!--
+                            
                             {% for num in (1..site.data.media.img-count) %}
                                 <div><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></div>
                             {% endfor %}
-                            -->
-                            {% for image in site.static_files %}
-                                {% if image.path contains 'images' %}
-                                         <div><img src="{{ image.path }}" alt="Image" class="img-fluid"></div>
-                                {% endif %}
-                            {% endfor %}
+                           
+                         
                             
                         </div>
                     </div>
@@ -237,12 +233,11 @@
                                 <h2 class="h4 text-black mb-3">Property Gallery</h2>
                             </div>
                             
-                                {% for image in site.static_files %}
-                                    {% if image.path contains 'images' %}
+                                {% for num in (1..site.data.media.img-count) %}
                                         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <a href="{{ image.path }}" class="image-popup gal-item"><img src="{{ image.path }}" alt="Image" class="img-fluid"></a>
+                                            <a href="{{site.data.media.img-path}}{{num}}.jpg" class="image-popup gal-item"><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></a>
                                         </div>
-                                    {% endif %}
+
                                 {%endfor%}                            
                         </div>
                     </div>
