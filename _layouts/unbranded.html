@@ -141,9 +141,12 @@
                     <div class="mb-5">
                         <div class="slide-one-item home-slider owl-carousel" id="details">
                             
-                            {% for num in (1..site.data.media.img-count) %}
-                                <div><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></div>
-                            {% endfor %}
+
+                            {% for image in site.static_files %}
+                                    {% if image.path contains 'images' %}
+                                    <div><img src="{{site.url}}{{image.path}}" alt="Image" class="img-fluid"></div>
+                                    {% endif %}
+                                {%endfor%}    
                             
                         </div>
                     </div>
@@ -227,12 +230,13 @@
                             <div class="col-12" id="photo">
                                 <h2 class="h4 text-black mb-3">Property Gallery</h2>
                             </div>
-                            
-                                {% for num in (1..site.data.media.img-count) %}
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <a href="{{site.data.media.img-path}}{{num}}.jpg" class="image-popup gal-item"><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></a>
-                                </div>
-                            {%endfor%}                            
+                                {% for image in site.static_files %}
+                                    {% if image.path contains 'images' %}
+                                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                        <a href="{{site.url}}{{image.path}}" class="image-popup gal-item"><img src="{{site.url}}{{image.path}}" alt="Image" class="img-fluid"></a>
+                                    </div>
+                                    {% endif %}
+                                {%endfor%}                         
                         </div>
 
 
