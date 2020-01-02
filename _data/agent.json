@@ -6,5 +6,12 @@
   "company": "",
   "license-number": "",
   "phone-number": "",
-  "photo": "images/avatar.png"
+  "photo": "images/avatar.png",
+  "img-path": "",
+  "img-count": null,
+  "feat-image-num": "",
+  "video-ready": null,
+  "unbranded-video-link": "",
+  "branded-video-link": "",
+  "header-title": ""
 }
