@@ -27,7 +27,3 @@ models:
   type: data
   label: Property Details
   file: home-info.json
-  fields:
-    - type: text
-      name: street-address
-      label: Street Address
