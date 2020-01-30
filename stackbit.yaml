@@ -5,13 +5,13 @@ buildCommand: ./ssg-build.sh
 publishDir: _site
 staticDir: ''
 uploadDir: images
-dataDir: _data
+dataDir: src/data
 pagesDir: ''
 pageLayoutKey: layout
 metadata:
-  title: Fjord
-  description: A minimal blogging theme
-  author: Stackbit
+  title: Navibanx Media Listing Site
+  description: Listing Site
+  author: Max
   authorURL: 'https://www.stackbit.com'
   images:
     small: images/demo-256x192.png
@@ -22,29 +22,4 @@ stackbit_banner:
   create_url: 'https://app.stackbit.com/create?theme=fjord'
   github_url: 'https://github.com/stackbithq/stackbit-theme-fjord'
 sourceMapping:
-  - source:
-      fieldPath: author.name
-    target:
-      file: data/author.json
-      fieldPath: name
-  - source:
-      fieldPath: author.name
-    target:
-      file: config.yml
-      fieldPath: params.header.title
-  - source:
-      fieldPath: author.email
-    target:
-      file: data/author.json
-      fieldPath: email
-  - source:
-      fieldPath: author.avatar
-    target:
-      file: data/author.json
-      fieldPath: avatar
-  - source:
-      fieldPath: 'social.links[0].url'
-    target:
-      file: data/social.json
-      fieldPath: 'links[0].url'
 models:
