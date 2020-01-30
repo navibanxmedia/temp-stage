@@ -81,6 +81,9 @@ models:
       - type: string
         name: lot-sqft
         label: Area (Lot)
+      - type: string
+        name: sqft
+        label: Area (Lot)
       - type: number
         name: year-built
         label: Year Built
@@ -94,4 +97,4 @@ models:
         name: photos
         label: Photos
         items:
-          type: image
+          type: image      
