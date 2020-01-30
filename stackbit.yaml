@@ -5,7 +5,7 @@ buildCommand: ./ssg-build.sh
 publishDir: _site
 staticDir: ''
 uploadDir: 
-dataDir: src/data
+dataDir: '_data'
 pagesDir: ''
 pageLayoutKey: layout
 metadata:
