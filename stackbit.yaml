@@ -51,8 +51,6 @@ models:
       label: Number of Rooms
     - name: bath-count
       type: text
-      config:
-        required: false
       label: Number of Bathrooms
     - type: text
       name: sqft
@@ -66,18 +64,11 @@ models:
     - type: textarea
       name: description
       label: Property Description
-      config:
-        wysiwyg: true
-        schema:
-          format: html-blocks
     - name: featured-photo
       type: file
-      config:
-        maxSize: 250
       label: Featured Photo
     - name: photos
       type: image_gallery
-      config: {}
       label: Photos
       description: Here you can rearrange or delete photos.
   agent_info:
