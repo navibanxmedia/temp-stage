@@ -139,11 +139,9 @@
                         <div class="slide-one-item home-slider owl-carousel" id="details">
                             
 
-                            {% for image in site.static_files %}
-                                    {% if image.path contains 'images' %}
-                                    <div><img src="{{site.url}}{{image.path}}" alt="Image" class="img-fluid"></div>
-                                    {% endif %}
-                                {%endfor%}    
+                            {% for imagePath in site.data.home-info.photos %}
+                                    <div><img src="{{imagePath}}" alt="Image" class="img-fluid"></div>
+                            {%endfor%}    
                             
                         </div>
                     </div>
@@ -227,13 +225,11 @@
                             <div class="col-12" id="photo">
                                 <h2 class="h4 text-black mb-3">Property Gallery</h2>
                             </div>
-                                {% for image in site.static_files %}
-                                    {% if image.path contains 'images' %}
-                                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                        <a href="{{site.url}}{{image.path}}" class="image-popup gal-item"><img src="{{site.url}}{{image.path}}" alt="Image" class="img-fluid"></a>
-                                    </div>
-                                    {% endif %}
-                                {%endfor%}                         
+                            {% for imagePath in site.data.home-info.photos %}
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <a href="{{imagePath}}" class="image-popup gal-item"><img src="{{imagePath}}" alt="Image" class="img-fluid"></a>
+                            </div>
+                        {%endfor%}                          
                         </div>
 
 
