@@ -83,7 +83,7 @@ models:
         label: Area (Lot)
       - type: string
         name: sqft
-        label: Area (Lot)
+        label: Area (Living Space)
       - type: number
         name: year-built
         label: Year Built
