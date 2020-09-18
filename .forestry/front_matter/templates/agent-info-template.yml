@@ -17,7 +17,7 @@ fields:
     required: false
   label: License
 - type: file
-  name: photo
+  name: agent-photo
   label: Agent's Photo
 - name: company-logo
   type: file
