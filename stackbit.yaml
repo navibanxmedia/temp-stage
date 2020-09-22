@@ -98,7 +98,7 @@ models:
         label: Photos
         items:
           type: image 
-  property_details:
+  agent_details:
       type: data
       label: Agent Details
       file: agent.json
