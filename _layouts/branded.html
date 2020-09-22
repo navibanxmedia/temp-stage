@@ -96,7 +96,7 @@
                                     <a href="#details">Details</a>
                                 </li>
                                 <li><a href="#photo">Photos</a></li>
-                                {% if site.data.media.video-ready != 0 %}
+                                {% if site.data.media.video-ready %}
                                 <li><a href="#video">Video</a></li>
                                 {% endif %}
                                 <li><a href="#contact">Contact</a></li>
@@ -222,7 +222,7 @@
                         {% endif %}
                         <!--XXXXXXXXXend prop videoXXXXXXXXX-->
 
-                        {% if site.data.media.matterport != 0 %}
+                        {% if site.data.media.matterport != "0" %}
                             <div class="row mt-5">
                             <div class="col-12" id="3d">
                                 <h2 class="h4 text-black mb-3">3D Virtual Tour</h2>
