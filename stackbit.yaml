@@ -121,3 +121,20 @@ models:
       - type: image
         name: company-logo
         label: Company Logo
+  media:
+      type: data
+      label: Media
+      file: media.json
+      fields:
+      - type: boolean
+        name: video-ready
+        label: Video Ready
+      - type: string
+        name: unbranded-video-link
+        label: Unbranded Video ID
+      - type: string
+        name: branded-video-link
+        label: Branded Video ID
+      - type: string
+        name: matterport
+        label: Matterport ID
