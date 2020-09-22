@@ -97,4 +97,27 @@ models:
         name: photos
         label: Photos
         items:
-          type: image      
+          type: image 
+  property_details:
+      type: data
+      label: Agent Details
+      file: agent.json
+      fields:
+      - type: string
+        name: name
+        label: Agent Name
+      - type: string
+        name: email
+        label: Email
+      - type: string
+        name: license-number
+        label: License Number
+      - type: string
+        name: phone-number
+        label: Phone Number
+      - type: image
+        name: agent-photo
+        label: Agent Photo
+      - type: image
+        name: company-logo
+        label: Company Logo
