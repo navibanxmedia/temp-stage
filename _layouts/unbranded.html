@@ -91,7 +91,7 @@
                                     <a href="#details">Details</a>
                                 </li>
                                 <li><a href="#photo">Photos</a></li>
-                                {% if site.data.media.video-ready != 0 %}
+                                {% if site.data.media.video-ready == true %}
                                 <li><a href="#video">Video</a></li>
                                 {% endif %}  
                             </ul>
@@ -204,7 +204,7 @@
                       
 
                         <!--XXXXXXXX Property Video XXXXXXXXXX-->
-    {% if site.data.media.video-ready %}
+    {% if site.data.media.video-ready == true %}
                         <div class="row mt-5">
                             <div class="col-12" id="video">
                                 <h2 class="h4 text-black mb-3">Property Video</h2>
