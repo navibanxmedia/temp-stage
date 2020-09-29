@@ -201,7 +201,17 @@
                         </div>
                         {% endif %}
                         <!--XXXXXXXXXXXXXXXXXX-->
-                      
+                        
+                      {% if site.data.media.has-floorplan == true %}
+                            <div class="row mt-5">
+                            <div class="col-12" id="3d">
+                                <h2 class="h4 text-black mb-3">Floorplan</h2>
+                            </div>
+                            <div class="col-12">
+                            <img src={{site.data.media.floorplan}} width="100%" />
+                    </div>
+                        </div>
+                        {% endif %}
 
                         <!--XXXXXXXX Property Video XXXXXXXXXX-->
     {% if site.data.media.video-ready == true %}
