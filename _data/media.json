@@ -2,5 +2,7 @@
   "video-ready": false,
   "unbranded-video-link": "",
   "branded-video-link": "",
-  "matterport": "0"
+  "matterport": "0",
+  "has-floorplan": false,
+  "floorplan": "",
 }
