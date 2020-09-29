@@ -138,3 +138,9 @@ models:
       - type: string
         name: matterport
         label: Matterport ID
+      - type: boolean
+        name: has-floorplan
+        label: Floorplan Available
+      - type: image
+        name: floorplan
+        label: Floorplan Imahe (JPG,PNG)
