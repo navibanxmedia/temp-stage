@@ -1,5 +1,5 @@
 .text-orange{
-  color: #f9a835;
+  color: black;
 }
 
 .site-section{
@@ -137,7 +137,7 @@ a {
   padding-bottom: 5px !important; }
 
 .form-control:active, .form-control:focus {
-  border-color: #f89d13; }
+  border-color: black; }
 
 .form-control:hover, .form-control:active, .form-control:focus {
   -webkit-box-shadow: none !important;
@@ -245,12 +245,12 @@ a {
 
 .site-footer {
   padding: 4em 0;
-  background: #333333; }
+  background: black; }
   @media (min-width: 768px) {
     .site-footer {
       padding: 7em 0; } }
   .site-footer p {
-    color: #737373; }
+    color: #ffffff; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
@@ -316,7 +316,7 @@ a {
     margin-left: 0;
     padding-left: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
-      color: #f89d13; }
+      color: black; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -329,7 +329,7 @@ a {
         color: rgba(0, 0, 0, 0.6);
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #f89d13; }
+          color: black; }
       .site-navbar .site-navigation .site-menu > li:last-child {
         padding-right: 0; }
         .site-navbar .site-navigation .site-menu > li:last-child > a {
@@ -364,7 +364,7 @@ a {
         margin-top: 20px;
         margin-left: 0px;
         background: #fff;
-        border-top: 4px solid #f89d13;
+        border-top: 4px solid black;
         -webkit-transition: 0.2s 0s;
         -o-transition: 0.2s 0s;
         transition: 0.2s 0s; }
@@ -402,7 +402,7 @@ a {
             padding: 5px 20px;
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-              color: #f89d13; }
+              color: black; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
             right: 20px; }
@@ -410,9 +410,9 @@ a {
             left: 100%;
             top: 0; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
-            color: #f89d13; }
+            color: black; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
-        color: #f89d13; }
+        color: black; }
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
         cursor: pointer; }
         .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
@@ -492,12 +492,12 @@ a {
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #f89d13; }
+        color: black; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #f89d13; }
+        color: black; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -880,7 +880,7 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
     .block-13 .owl-dots .owl-dot.active > span {
-      background: #f89d13; }
+      background: black; }
 
 #slider-range {
   height: 8px; }
@@ -889,11 +889,11 @@ a {
     height: 16px;
     border-radius: 50%;
     border: none !important;
-    background: #f89d13; }
+    background: black; }
     #slider-range .ui-slider-handle:focus, #slider-range .ui-slider-handle:active {
       outline: none; }
   #slider-range .ui-slider-range {
-    background-color: #f89d13; }
+    background-color: black; }
 
 .slide-one-item.home-slider .owl-nav {
   position: absolute !important;
@@ -947,7 +947,7 @@ a {
   display: block; }
   .service .icon {
     font-size: 60px;
-    color: #f89d13; }
+    color: black; }
   .service .service-heading {
     color: #000;
     font-size: 1.2rem;
@@ -988,7 +988,7 @@ a {
     border: 1px solid #cccccc; }
   .site-pagination a.active {
     border: 1px solid transparent;
-    background: #f89d13;
+    background: black;
     color: #fff; }
     .site-pagination a.active:hover {
       border: 1px solid transparent;
@@ -1023,9 +1023,9 @@ a {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease;
-      background: #f89d13;
+      background: black;
       color: #fff;
-      border: 1px solid #f89d13; }
+      border: 1px solid black; }
     .unit-8 .accordion-item .heading > a[aria-expanded="false"]:before {
       content: "\e313";
       color: #ccc;
@@ -1095,10 +1095,10 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
       background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
       background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='black00', endColorstr='#cc000000',GradientType=0 ); }
     .prop-entry .prop-text .prop-more-info {
       font-size: 12px;
-      background: #f89d13;
+      background: black;
       position: relative;
       z-index: 4;
       padding-top: 5px;
@@ -1112,7 +1112,7 @@ a {
       .prop-entry .prop-text .prop-more-info span {
         display: block; }
     .prop-entry .prop-text .price {
-      background: #f89d13;
+      background: black;
       color: #fff;
       padding: 4px 10px;
       display: inline-block;
@@ -1133,7 +1133,7 @@ a {
   line-height: 0;
   position: relative;
   top: -3px;
-  color: #f89d13; }
+  color: black; }
 
 .feature .text h2 {
   font-size: 18px;
