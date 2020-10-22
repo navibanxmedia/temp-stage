@@ -115,6 +115,12 @@ models:
       - type: string
         name: phone-number
         label: Phone Number
+      - type: string
+        name: title
+        label: title
+      - type: string
+        name: company-name
+        label: Company Name
       - type: image
         name: agent-photo
         label: Agent Photo
