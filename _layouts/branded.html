@@ -4,7 +4,7 @@
     
 
     
-    <title>{{site.data.home-info.street-address}}, {{site.data.home-info.city}} {{site.data.home-info.state}} {{site.data.home-info.postal-code}} - {{site.data.agent.name}}</title>
+    <title>{{site.data.home-info.street-address}}, {{site.data.home-info.city}} {{site.data.home-info.state}} {{site.data.home-info.postal-code}} | {{site.data.agent.name}} | {{site.data.agent.company-name}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -80,7 +80,7 @@
 
                     <!--XXXXXXXXXXXXXXXXXX-->
                     <div class="col-8 col-md-8 col-lg-4">
-                        <h1 class=""><a href="index.html" class="h5 text-uppercase text-black"><strong><span class="text-danger">.</span></strong></a></h1>
+                        <h1 class=""><a href="index.html" class="h5 text-uppercase text-black"><strong><span class="text-danger"></span></strong></a></h1>
                     </div>
                     <!--XXXXXXXXXXXXXXXXXX-->
 
@@ -128,7 +128,7 @@
 
                     <h1 class="mb-2">{{site.data.home-info.street-address}}, {{site.data.home-info.city}} {{site.data.home-info.state}} {{site.data.home-info.postal-code}}</h1>
                     
-                    <p class="mb-5"><strong class="h2 text-orange font-weight-bold">{{site.data.home-info.price}}</strong></p>
+                    <p class="mb-5"><strong class="h2 text-white font-weight-bold">{{site.data.home-info.price}}</strong></p>
                   
 
 
@@ -239,7 +239,7 @@
                                 <h2 class="h4 text-black mb-3">Floorplan</h2>
                             </div>
                             <div class="col-12">
-                            <img src={{site.data.media.floorplan}} width="100%" />
+                            <img src="{{site.data.media.floorplan}}" width="100%" />
                     </div>
                         </div>
                         {% endif %}
@@ -263,16 +263,17 @@
 
                 <div class="col-lg-4 pl-md-5">
                     <!--XXXXXXXXXXXXXXXXXX-->
-                    <div class="bg-white widget border rounded" id="contact">
-                        <img src="{{site.data.agent.agent-photo}}" width="100%" >
+                    <div class="bg-white widget border rounded text-center" id="contact">
+                        <img src="{{site.data.agent.agent-photo}}" width="70%" style="border-radius: 100%">
                         <br><br>
-                        <h4 style="margin-bottom: 10px">{{site.data.agent.name}}</h4>
-                        <img src="{{site.data.agent.company-logo}}" width="60%" >
-                        <h6 class=" mb-3">{{site.data.agent.license-number}}</h6>
+                        <h4 class="text-black" style="margin-bottom: 10px">{{site.data.agent.name}}</h4>
+                        <h6 class="mb-2 text-black">{{site.data.agent.title}}</h6>
+                        <h6 class="mb-2">{{site.data.agent.license-number}}</h6>
+                        <h6>{{site.data.agent.phone-number}}</h6>
+                        <h6>{{site.data.agent.email}}</h6>
                         <hr>
+                        <img src="{{site.data.agent.company-logo}}" width="80%" >
                         <p><a href="{{site.data.agent.website-url}}">{{site.data.agent.website-title}}</a></p>
-                        <p><a href="tel:{{site.data.agent.phone-number}}">{{site.data.agent.phone-number}}</a></p>
-                        <p><a href="mailto:{{site.data.agent.email}}">{{site.data.agent.email}}</a></p>
                     </div>
                     <!--XXXXXXXXXXXXXXXXXX-->
                 </div>
