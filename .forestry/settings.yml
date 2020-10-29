@@ -12,6 +12,9 @@ sections:
 - type: document
   path: _data/agent.json
   label: Agent Details
+- type: document
+  path: _data/media.json
+  label: Media
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
