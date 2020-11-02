@@ -41,9 +41,9 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: html
+      format: html-blocks
 - type: file
-  name: photo
+  name: featured-photo
   label: Featured Photo
 - name: photos
   type: image_gallery

@@ -11,6 +11,9 @@ fields:
 - name: phone-number
   label: Phone Number
   type: text
+- name: license
+  label: License 
+  type: text
 - name: title
   label: Agent Title
   type: text
