@@ -2,19 +2,17 @@
 new_page_extension: html
 auto_deploy: true
 admin_path: admin
+webhook_url: https://api.stackbit.com/project/5d702df9df1b650011dd98b7/webhook/forestry
 sections:
-- type: document 
-  label: Property Details + Photos
+- type: document
   path: _data/home-info.json
-  templates: property-info-template
+  label: Property Details + Photos
 - type: document
-  label: Agent Details
   path: _data/agent.json
-  templates: agent-info-template
+  label: Agent Details
 - type: document
-  label: Media
   path: _data/media.json
-  templates: media
+  label: Media
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
