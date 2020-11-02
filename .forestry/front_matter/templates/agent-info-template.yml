@@ -23,9 +23,6 @@ fields:
 - name: agent-photo
   label: Agent Photo
   type: file
-- type: file
-  name: agent-photo
-  label: Agent's Photo
 - name: company-logo
   type: file
   label: Company Logo
