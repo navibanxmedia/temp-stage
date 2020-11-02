@@ -17,9 +17,6 @@ fields:
 - name: company-name
   label: Company Name
   type: text
-- name: company-logo
-  label: Company Logo
-  type: file
 - name: agent-photo
   label: Agent Photo
   type: file
