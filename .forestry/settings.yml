@@ -1,15 +1,16 @@
 ---
-new_page_extension: html
-auto_deploy: true
+new_page_extension: md
+auto_deploy: false
 admin_path: admin
-webhook_url: https://api.stackbit.com/project/5d702df9df1b650011dd98b7/webhook/forestry
 sections:
+- type: heading
+  label: Edit Here
 - type: document
   path: _data/home-info.json
-  label: Property Details + Photos
+  label: Property Info
 - type: document
   path: _data/agent.json
-  label: Agent Details
+  label: Agent Info
 - type: document
   path: _data/media.json
   label: Media
