@@ -25,8 +25,6 @@ fields:
   label: Number of Rooms
 - name: bath-count
   type: text
-  config:
-    required: false
   label: Number of Bathrooms
 - type: text
   name: sqft
@@ -43,14 +41,12 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: html
 - type: file
   name: photo
   label: Featured Photo
-  hidden: true
 - name: photos
   type: image_gallery
-  config: {}
   label: Photos
 pages:
 - _data/home-info.json

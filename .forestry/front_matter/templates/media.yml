@@ -1,0 +1,25 @@
+---
+label: Media
+hide_body: true
+fields:
+- type: boolean
+  name: video-ready
+  label: Video Ready
+- type: text
+  name: unbranded-video-link
+  label: Unbranded Video Link
+- type: text
+  name: branded-video-link
+  label: Branded Video Link
+- type: text
+  name: matterport
+  label: Matterport ID
+- type: boolean
+  name: has-floorplan
+  label: Floorplan Available
+- type: file
+  name: floorplan
+  label: Floorplan File
+pages:
+- _data/media.json
+

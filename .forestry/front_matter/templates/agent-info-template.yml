@@ -2,27 +2,32 @@
 label: Agent Info Template
 hide_body: true
 fields:
-- type: text
-  name: name
+- name: name
   label: Agent Name
-- type: text
-  name: email
-  label: Email
-- type: text
-  name: phone-number
-  label: Phone Number
-- name: license-number
   type: text
-  config:
-    required: false
-  label: License
+- name: email
+  label: Email
+  type: text
+- name: phone-number
+  label: Phone Number
+  type: text
+- name: title
+  label: Agent Title
+  type: text
+- name: company-name
+  label: Company Name
+  type: text
+- name: company-logo
+  label: Company Logo
+  type: file
+- name: agent-photo
+  label: Agent Photo
+  type: file
 - type: file
   name: agent-photo
   label: Agent's Photo
 - name: company-logo
   type: file
-  config:
-    maxSize: 64
   label: Company Logo
 pages:
 - _data/agent.json
