@@ -99,6 +99,12 @@
                                 {% if site.data.media.video-ready == true %}
                                 <li><a href="#video">Video</a></li>
                                 {% endif %}
+                                {% if site.data.media.matterport != "" %}
+                                <li><a href="#3d">3D Tour</a></li>
+                                {% endif %}
+                              {% if site.data.media.has-floorplan == true %}
+                                <li><a href="#floorplan">Floorplan</a></li>
+                                {% endif %}
                                 <li><a href="#contact">Contact</a></li>
                                
                                 
@@ -235,7 +241,7 @@
                       
                       {% if site.data.media.has-floorplan == true %}
                             <div class="row mt-5">
-                            <div class="col-12" id="3d">
+                            <div class="col-12" id="floorplan">
                                 <h2 class="h4 text-black mb-3">Floorplan</h2>
                             </div>
                             <div class="col-12">
@@ -322,6 +328,3 @@
     <script src="assets/js/aos.js"></script>
 
     <script src="assets/js/main.js"></script>
-
-</body>
-</html>
