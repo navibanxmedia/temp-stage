@@ -93,6 +93,12 @@
                                 <li><a href="#photo">Photos</a></li>
                                 {% if site.data.media.video-ready == true %}
                                 <li><a href="#video">Video</a></li>
+                                 {% if site.data.media.matterport != "" %}
+                                <li><a href="#3d">3D Tour</a></li>
+                                {% endif %}
+                              {% if site.data.media.has-floorplan == true %}
+                                <li><a href="#floorplan">Floorplan</a></li>
+                                {% endif %}
                                 {% endif %}  
                             </ul>
                         </nav>
@@ -120,7 +126,7 @@
 
                     <h1 class="mb-2">{{site.data.home-info.street-address}}, {{site.data.home-info.city}} {{site.data.home-info.state}} {{site.data.home-info.postal-code}}</h1>
                     
-                    <p class="mb-5"><strong class="h2 text-white font-weight-bold">{{site.data.home-info.price}}</strong></p>
+                    <p class="mb-5"><strong class="h2 text-orange font-weight-bold">{{site.data.home-info.price}}</strong></p>
                   
 
 
@@ -204,7 +210,7 @@
                         
                       {% if site.data.media.has-floorplan == true %}
                             <div class="row mt-5">
-                            <div class="col-12" id="3d">
+                            <div class="col-12" id="floorplan">
                                 <h2 class="h4 text-black mb-3">Floorplan</h2>
                             </div>
                             <div class="col-12">
